@@ -6,6 +6,28 @@ BabyGPT on the other hand is a similar type of language model except the trainin
 ## TLDR
 This model takes in 40 characters of text from input text data containing 40,000 lines of Shakespeare's works and tries to correctly predict the following 400 characters.
 
+## Sample Output
+``` console
+2886/2886 ━━━━━━━━━━━━━━━━━━━━ 88s 30ms/step - loss: 2.6403   
+
+Generating text after epoch: 0
+...Diversity: 0.2
+...Generating with seed: "not weep; for all my body's moisture sca"
+...Generated:  nd the sand the serst and the sure the bate the shave the buther sore and the the the shave the pare the sore the sore the sore the serent and the sere the sore the sore the seres and and the sere the sordent and the sore the bucher the bather sore the pare the beather sore the sall and the the wish the bucher to the sores and the conders me the come the buther and the the mand and and the the sor
+-
+...Diversity: 0.5
+...Generating with seed: "not weep; for all my body's moisture sca"
+...Generated:  ringe and in ald i wer the mangst if a doond for the kerist and mishers vavence to works and hat me sing to cumens coants of her sicon the bander i and sore fore of my and the sead in wiss mene the beast have that i seat i ow the dather the erines and buther seed in youl the pearout come in the soule and of the sorverent cour the cavers and the forst thes sit and and and then and and davend and i 
+-
+...Diversity: 1.0
+...Generating with seed: "not weep; for all my body's moisture sca"
+...Generated:  menow. arbuk: gaventersang: thom thathe'te dilettess forshageres the sereel-heng dorl thee! froi ga wo damnine proth yourst race teather shiverosce coring vef theeptt! i butwild; like in fid netehare sceruthagld: of m ponees hal be bol, the suandred fpuncais conberunpy pliop thes nam sif wouks, whac angind. whey thin if it ho look: wett, buce prerelt: of menes: of seandy of umant: if i is rithalls
+-
+...Diversity: 1.2
+...Generating with seed: "not weep; for all my body's moisture sca"
+...Generated:  s. wher diest ghave if gias? draed'n r vontan thimadbe houcesgor eamn ther thes lites, thy shaveg mo houeys nocrory sotk;-hire a frrint: i bi sirf of wlave satteet. keds owss to will! srendit. muktenpetf bppock wisuspilingxsnef dutn bryown tu cente prie, seal why? i the skand: gente thimeres'le. my or; botki, non, norstloug; aghird inom: winp ast urean'st you whik e wnak, rilallin:  hoo banneln he
+```
+
 <br>
 
 ## Hyperparameters
@@ -20,6 +42,7 @@ The model's performance can be changed by adjusting the following hyperparameter
 - `loss`: The function used to calculate the loss of the model, loss being the difference bewteen the model's predictions and the actual target values (eg: categorical crossentropy, MSE, etc.)
 - `epochs`: The number of passes of the entire training dataset passing through the model
 - `batch_size`: The number of samples that is fed into the model at each iteration of the training process
+- `diversity`: The randomness of the selection for the next character choice; lower = less random, higher = more random
 
 The current values/choices for these parameters was for the most part arbitrarily chosen. They can be adjusted/changed to get a lower loss value.
 
