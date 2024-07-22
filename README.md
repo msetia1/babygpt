@@ -27,6 +27,27 @@ Generating text after epoch: 0
 ...Generating with seed: "not weep; for all my body's moisture sca"
 ...Generated:  s. wher diest ghave if gias? draed'n r vontan thimadbe houcesgor eamn ther thes lites, thy shaveg mo houeys nocrory sotk;-hire a frrint: i bi sirf of wlave satteet. keds owss to will! srendit. muktenpetf bppock wisuspilingxsnef dutn bryown tu cente prie, seal why? i the skand: gente thimeres'le. my or; botki, non, norstloug; aghird inom: winp ast urean'st you whik e wnak, rilallin:  hoo banneln he
 ```
+...
+``` console
+2886/2886 ━━━━━━━━━━━━━━━━━━━━ 44095s 15s/step - loss: 1.4411  
+
+Generating text after epoch: 39
+...Diversity: 0.2
+...Generating with seed: " earth which serves as paste and cover t"
+...Generated:  o the come of the heaven to his house the counterfect and the counterfect be the weak me the counterfelless and the countertion of the fair of the courtes and for the dear the charged and stand the prince of the stread of the bearth of the come, and the ward the liest with the world that with the precenter to the state to hear the counterfect and the state the entleased to his heart of the sure to
+-
+...Diversity: 0.5
+...Generating with seed: " earth which serves as paste and cover t"
+...Generated:  o this death. northumberland: sir, the king the mather as the courtes of what you an of my cearles like the softing and the store to the spired the speep of the content of book and you have death to accuse the provertion. the shall would be and the forth it is that seem him to my son have deach the good to the life, be and which we have shall i will is a mut to the maid down, for the was i should 
+-
+...Diversity: 1.0
+...Generating with seed: " earth which serves as paste and cover t"
+...Generated:  o cure. o cry'll: the noble corsomen morrow like a prayer are it off, for, mercy down he houch he that good cry nor dompion and beouthed. this shit an atter, madam let so? who? what shall breaths away, go of thee we the for a jeading, will creasu's of into us. the enemers will not will his briaghs, i welcomious behold. clarence: in tarks; prefin who have gone; before thy feast in it of this contio
+-
+...Diversity: 1.2
+...Generating with seed: " earth which serves as paste and cover t"
+...Generated:  o the drlouter of deid, cith rurces serams is traught duchtes povertatness of his quock humbal. i, caley liper hopewars for me but frant, laids some jester of thy uney:-and. courd end gincled! freait, romeo: gloucester, there be 'umbly add being oon the blood; that was staid up, who strivestance? northumberland: lid: is, and hath, here not, pardoada regold dean. juliet: how case you for, what mudy
+```
 
 <br>
 
