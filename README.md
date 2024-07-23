@@ -1,7 +1,10 @@
 # BabyGPT: A Character-Level Generation Model built with Keras
 BabyGPT is a term for language models similar to that of ChatGPT with the main difference being the size of the training data.\
 ChatGPT is a Large Language Model (LLM) that is trained on a very large dataset, hence the Large in LLM.\
-BabyGPT on the other hand is a similar type of language model except the training data used is much smaller, hence the name BabyGPT.
+BabyGPT on the other hand is a similar type of language model except the training data used is much smaller, hence the name BabyGPT.\
+\
+The main reason why I built a BabyGPT model is to learn and understand the principles of natural language processing and to see, firsthand, the progression of the leraning of the model as it goes through training.\
+However, different BabyGPT models can be used for various other reasons, such as having more specialized knowledge on a certain topic or being much more efficient and requiring less computational power to train and run than an LLM.
 
 ## TLDR
 This model takes in 40 characters of text from input text data containing 40,000 lines of Shakespeare's works and tries to correctly predict the following 400 characters.
